@@ -52,9 +52,11 @@ const GetCountry = () => {
 
   return (
     <div className="contenedor-time">
+    
+    <h1 className='titulo'>Weather Application</h1>
 
      <select onChange={handleChangeCountry} className='select-country'>
-      <option value="select">Seleciona</option>
+      <option value="select">Select The Country</option>
       {
           country.map((item, i) => {
             return (
@@ -66,7 +68,7 @@ const GetCountry = () => {
 
     
         <select onChange={handleChangeCity} className='select-city'>
-          <option value="select">Seleciona</option>
+          <option value="select">Select The City</option>
         {
           city.map((item, i) => {
             return (

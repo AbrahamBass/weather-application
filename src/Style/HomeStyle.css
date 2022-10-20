@@ -56,7 +56,7 @@
   font-family: 'Inter', sans-serif;
   width: 400px;
   right: 180px;
-  top: 50px;
+  top: 140px;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.11);
   color: white;
@@ -66,6 +66,10 @@
 }
 
 .select-country:focus {
+  outline: none;
+}
+
+.select-city:focus {
   outline: none;
 }
 
@@ -98,5 +102,15 @@ option {
 .valor {
   color: white;
   font-family: 'Inter', sans-serif; 
+}
+
+.titulo {
+  position: absolute;
+  font-family: 'Inter', sans-serif; 
+  top: 20px;
+  right: 195px;
+  color: white;
+  z-index: 10;
+  font-size: 40px;
 }
 
