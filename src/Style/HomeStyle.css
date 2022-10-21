@@ -9,6 +9,11 @@
   z-index: -1;
 }
 
+.elect {
+  display: flex;
+  gap: 190px;
+}
+
 .fixed {
   position: fixed;
   top: 0;
@@ -114,3 +119,398 @@ option {
   font-size: 40px;
 }
 
+
+
+@media (max-width: 950px) {
+  .titulo {
+    right: 110px;
+  }
+
+  .select-country{
+    right: 100px;
+  }
+
+  .select-city {
+    right: 100px;
+  }
+
+  .data-time {
+    right: 130px;
+  }
+}
+
+@media (max-width: 860px){
+  .temperatura {
+    top: 140px;
+    left: 300px;
+  }
+
+  .titulo {
+    left: 260px;
+  }
+
+  .select-country {
+    /* width: ; */
+    top: 350px;
+    left: 250px;
+  }
+
+  .fixed {
+    display: none;
+  }
+
+  .select-city {
+    top: 450px;
+    left: 250px;
+  }
+
+  .data-time {
+    top: 550px;
+    left: 300px;
+  }
+
+  .contenedor-time {
+    background-image: url(../Img/movil.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+  }
+}
+
+@media (max-width: 760px){
+  .temperatura {
+    top: 140px;
+    left: 210px;
+  }
+
+  .titulo {
+    left: 190px;
+  }
+
+  .select-country {
+    /* width: ; */
+    top: 350px;
+    left: 180px;
+  }
+
+  .fixed {
+    display: none;
+  }
+
+  .select-city {
+    top: 450px;
+    left: 180px;
+  }
+
+  .data-time {
+    top: 550px;
+    left: 210px;
+  }
+
+  .contenedor-time {
+    background-image: url(../Img/movil.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+  }
+}
+
+@media (max-width: 895px){
+  .temperatura {
+    top: 140px;
+    left: 300px;
+  }
+
+  .titulo {
+    left: 260px;
+  }
+
+  .select-country {
+    /* width: ; */
+    top: 350px;
+    left: 250px;
+  }
+
+  .fixed {
+    display: none;
+  }
+
+  .select-city {
+    top: 450px;
+    left: 250px;
+  }
+
+  .data-time {
+    top: 550px;
+    left: 300px;
+  }
+
+  .contenedor-time {
+    background-image: url(../Img/movil.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+  }
+}
+
+@media (max-width: 752px){
+  .temperatura {
+    top: 140px;
+    left: 140px;
+  }
+
+  .titulo {
+    left: 120px;
+  }
+
+  .select-country {
+    /* width: ; */
+    top: 350px;
+    left: 120px;
+  }
+
+  .fixed {
+    display: none;
+  }
+
+  .select-city {
+    top: 450px;
+    left: 120px;
+  }
+
+  .data-time {
+    top: 550px;
+    left: 140px;
+  }
+
+  .contenedor-time {
+    background-image: url(../Img/movil.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+  }
+}
+
+
+@media (max-width: 612px){
+  .temperatura {
+    top: 140px;
+    left: 125px;
+  }
+
+  .tiempo {
+    font-size: 70px;
+  }
+
+  .ciudad {
+    font-size: 30px;
+  }
+
+  .titulo {
+    left: 110px;
+    font-size: 30px;
+  }
+
+  .select-country {
+    /* width: ; */
+    top: 350px;
+    left: 100px;
+    width: 300px;
+  }
+
+  .select-city {
+    top: 450px;
+    left: 100px;
+    width: 300px;
+  }
+
+  .data-time {
+    top: 550px;
+    left: 120px;
+    font-size: 15px;  
+  }
+
+  .elect {
+    display: flex;
+    gap: 120px;
+  }
+
+
+}
+
+
+
+@media (max-width: 507px){
+  .temperatura {
+    top: 140px;
+    left: 95px;
+  }
+
+  .tiempo {
+    font-size: 60px;
+  }
+
+  .ciudad {
+    font-size: 25px;
+  }
+
+  .titulo {
+    left: 70px;
+    font-size: 30px;
+  }
+
+  .select-country {
+    /* width: ; */
+    top: 350px;
+    left: 70px;
+    width: 250px;
+  }
+
+  .select-city {
+    top: 450px;
+    left: 70px;
+    width: 250px;
+  }
+
+  .data-time {
+    top: 550px;
+    left: 90px;
+    font-size: 15px;  
+  }
+
+  .elect {
+    display: flex;
+    gap: 100px;
+  }
+
+  .img {
+    width: 100px;
+  }
+
+
+}
+
+
+
+@media (max-width: 507px){
+
+  .titulo {
+    left: 70px;
+    font-size: 26px;
+    right: 0;
+  }
+  
+  .img {
+    width: 100px;
+  }
+
+
+}
+
+@media (max-width: 375px){
+
+  .contenedor-time {
+    background-image: url(../Img/movil-2.jpg);
+  }
+  .temperatura {
+    top: 140px;
+    left: 55px;
+  }
+
+
+}
+
+@media (max-width: 369px){
+  .temperatura {
+    top: 140px;
+    left: 60px;
+  }
+
+  .tiempo {
+    font-size: 60px;
+  }
+
+  .ciudad {
+    font-size: 25px;
+  }
+
+  .titulo {
+    left: 55px;
+    font-size: 25px;
+  }
+
+  .select-country {
+    /* width: ; */
+    top: 350px;
+    left: 50px;
+    width: 230px;
+  }
+
+  .select-city {
+    top: 450px;
+    left: 50px;
+    width: 230px;
+  }
+
+  .data-time {
+    top: 550px;
+    left: 60px;
+    font-size: 15px;  
+  }
+
+  .elect {
+    display: flex;
+    gap: 70px;
+  }
+
+  .img {
+    width: 100px;
+  }
+
+
+}
+
+
+
+@media (max-width: 341px) {
+  .temperatura {
+    top: 140px;
+    left: 40px;
+  }
+
+  .tiempo {
+    font-size: 50px;
+  }
+
+  .ciudad {
+    font-size: 20px;
+  }
+
+  .titulo {
+    left: 40px;
+    font-size: 22px;
+  }
+  .select-country {
+    top: 350px;
+    left: 35px;
+    width: 230px;
+  }
+  .select-city {
+    top: 450px;
+    left: 35px;
+    width: 230px;
+  }
+  .data-time {
+    top: 550px;
+    left: 42px;
+    font-size: 13px;  
+  }
+  .img {
+    width: 80px;
+  }
+  
+  .elect {
+    display: flex;
+    gap: 60px;
+  }
+}

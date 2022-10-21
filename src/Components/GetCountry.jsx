@@ -28,7 +28,6 @@ const GetCountry = () => {
     axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cit}&appid=${KEY}&units=metric`)
       .then((res) => {
         setTiempo(res.data)
-        console.log(res.data)
       })
   }
 
@@ -87,7 +86,7 @@ const GetCountry = () => {
                 <div>
                   <div className='flex'>
                     <h2 className='tiempo'>{tiempo.main.temp}°</h2>
-                    <img src={`http://openweathermap.org/img/wn/${tiempo.weather[0].icon}@2x.png`} alt="img" />
+                    <img src={`http://openweathermap.org/img/wn/${tiempo.weather[0].icon}@2x.png`} alt="img" className='img'/>
                   </div>
                   <h3 className='ciudad'>{tiempo.name}</h3>
                 </div>
@@ -98,21 +97,21 @@ const GetCountry = () => {
           <div className='data-time'>
             {
               tiempo && (
-                <div style={{display: 'flex', gap: '190px'}}>
+                <div className='elect'>
                   <div className='parra'>
                   <p>FeelsLike: </p>
                   <p style={{marginTop: '10px'}}>Humidity: </p>
-                  <p style={{marginTop: '10px'}}>Pressure: </p>
-                  <p style={{marginTop: '10px'}}>Lat:</p>
-                  <p style={{marginTop: '10px'}}>Lon:</p>
+                  <p style={{marginTop: '10px'}} >Pressure: </p>
+                  <p style={{marginTop: '10px'}} >Lat:</p>
+                  <p style={{marginTop: '10px'}} >Lon:</p>
                   </div>
 
                   <div className='valor'>
                   <p> {tiempo.main.feels_like}</p>
                   <p style={{marginTop: '10px'}} >{tiempo.main.humidity}</p>
-                  <p style={{marginTop: '10px'}}>{tiempo.main.pressure}</p>
-                  <p style={{marginTop: '10px'}}>{tiempo.coord.lat}</p>
-                  <p style={{marginTop: '10px'}}>{tiempo.coord.lon}</p>
+                  <p style={{marginTop: '10px'}} >{tiempo.main.pressure}</p>
+                  <p style={{marginTop: '10px'}} >{tiempo.coord.lat}</p>
+                  <p style={{marginTop: '10px'}} >{tiempo.coord.lon}</p>
                   </div>
                 </div>
               )
